@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-blog-14cef": {
+      "hosting": {
+        "angular-material-blog": [
+          "angular-blog-14cef"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-blog-14cef"
+  }
+}
