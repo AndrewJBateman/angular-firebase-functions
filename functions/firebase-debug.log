@@ -1,0 +1,37 @@
+[debug] [2021-02-11T15:24:13.460Z] ----------------------------------------------------------------------
+[debug] [2021-02-11T15:24:13.464Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\gomez\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2021-02-11T15:24:13.465Z] CLI Version:   9.3.0
+[debug] [2021-02-11T15:24:13.465Z] Platform:      win32
+[debug] [2021-02-11T15:24:13.465Z] Node Version:  v14.15.4
+[debug] [2021-02-11T15:24:13.471Z] Time:          Thu Feb 11 2021 16:24:13 GMT+0100 (hora estándar de Europa central)
+[debug] [2021-02-11T15:24:13.472Z] ----------------------------------------------------------------------
+[debug] [2021-02-11T15:24:13.472Z] 
+[debug] [2021-02-11T15:24:13.477Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-02-11T15:24:13.526Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-02-11T15:24:13.527Z] > authorizing via signed-in user
+[debug] [2021-02-11T15:24:13.527Z] [iam] checking project angular-blog-14cef for permissions ["firebase.projects.get"]
+[debug] [2021-02-11T15:24:13.533Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-02-11T15:24:13.534Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-02-11T15:24:13.992Z] <<< HTTP RESPONSE 200 {"date":"Thu, 11 Feb 2021 15:24:13 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-02-11T15:24:13.999Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/angular-blog-14cef:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-02-11T15:24:14.400Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2021-02-11T15:24:14.400Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2021-02-11T15:24:15.153Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 11 Feb 2021 15:24:14 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=664","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-02-11T15:24:15.204Z] [functions] Using node@14 from host.
+[debug] [2021-02-11T15:24:15.206Z] defaultcredentials: writing to file C:\Users\gomez\AppData\Roaming\firebase\gomezbateman_gmail_com_application_default_credentials.json
+[debug] [2021-02-11T15:24:15.208Z] DEBUG: Setting GAC to C:\Users\gomez\AppData\Roaming\firebase\gomezbateman_gmail_com_application_default_credentials.json
+[debug] [2021-02-11T15:24:15.209Z] > refreshing access token with scopes: []
+[debug] [2021-02-11T15:24:15.210Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-02-11T15:24:15.545Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Thu, 11 Feb 2021 15:24:15 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-02-11T15:24:15.557Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/angular-blog-14cef/adminSdkConfig [none]
+[debug] [2021-02-11T15:24:16.335Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/angular-blog-14cef/adminSdkConfig 200
+[debug] [2021-02-11T15:24:16.336Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/angular-blog-14cef/adminSdkConfig {"projectId":"angular-blog-14cef","databaseURL":"https://angular-blog-14cef.firebaseio.com","storageBucket":"angular-blog-14cef.appspot.com","locationId":"europe-west"}
+[debug] [2021-02-11T15:24:16.361Z] [functions] Watching "C:\Users\gomez\code\angular\angular-firebase-functions\functions" for Cloud Functions...
+[debug] [2021-02-11T15:24:16.394Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2021-02-11T15:24:16.394Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2021-02-11T15:24:16.394Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2021-02-11T15:24:16.395Z] DEBUG: [worker-~diagnostic~-30679d3e-a320-43e6-b6e5-4e3742a728ba]: Assigning socketPath: \\?\pipe\C:\Users\gomez\code\angular\angular-firebase-functions\functions\14576
+[debug] [2021-02-11T15:24:16.396Z] DEBUG: [worker-~diagnostic~-30679d3e-a320-43e6-b6e5-4e3742a728ba]: BUSY
