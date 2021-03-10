@@ -4,7 +4,7 @@ import * as express from "express";
 import * as cors from "cors";
 
 // eslint-disable-next-line max-len
-const serviceAccount = require("/Users/gomez/Downloads/angular-blog-14cef-firebase-adminsdk-3rnkh-0bc6cf2746.json");
+const serviceAccount = require("/Users/gomez/Downloads/name-of-json-file-on-your-hard-drive");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
