@@ -1,13 +1,17 @@
 # :zap: Angular Firebase Functions
- 
-* Angular 11 app using Firebase tools
-* Firebase Functions used with express server to access a realtime database
 
-*** Note: to open web links in a new window use: _ctrl+click on link_**
+* Angular app using Firebase tools
+* Firebase Functions used with express server to access a realtime database
+* **Note:** to open web links in a new window use: _ctrl+click on link_
+
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-firebase-functions?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/angular-firebase-functions?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/angular-firebase-functions?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/angular-firebase-functions?style=plastic)
 
 ## :page_facing_up: Table of contents
 
-* [:zap: Angular Material Table](#zap-angular-material-table)
+* [:zap: Angular Firebase Functions](#zap-angular-firebase-functions)
   * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
@@ -17,6 +21,7 @@
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -31,7 +36,7 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v11](https://angular.io/)
+* [Angular v12](https://angular.io/)
 * [Firebase v8](https://firebase.google.com) Cloud storage and authentication.
 * [Firebase Tools v9](https://www.npmjs.com/package/firebase-tools) CLI used to manage a Firebase project
 * [AngularFire v6](https://www.npmjs.com/package/@angular/fire) Angular library for Firebase
@@ -64,7 +69,7 @@ app.get("/database_ref", (request, response) => {
 
 ## :cool: Features
 
-* Firebase Cloud Functions can be used is a serverless framework that allows backend code to be run automatically in response to https requests and Firebase features. 
+* Firebase Cloud Functions can be used is a serverless framework that allows backend code to be run automatically in response to https requests and Firebase features.
 
 ## :clipboard: Status & To-Do List
 
@@ -75,6 +80,10 @@ app.get("/database_ref", (request, response) => {
 
 * [Demos with Angular: Building Custom APIs on top of the Firebase Realtime DB](https://www.youtube.com/watch?v=mWAwxbeGU_E&t=186s)
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
