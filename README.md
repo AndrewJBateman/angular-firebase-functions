@@ -32,21 +32,21 @@
 
 ## :camera: Screenshots
 
-* No screenshots taken for this project
+![Screenshot](./img/screen.png)
 
 ## :signal_strength: Technologies
 
-* [Angular v12](https://angular.io/)
-* [Firebase v8](https://firebase.google.com) Cloud storage and authentication.
-* [Firebase Tools v9](https://www.npmjs.com/package/firebase-tools) CLI used to manage a Firebase project
-* [AngularFire v6](https://www.npmjs.com/package/@angular/fire) Angular library for Firebase
+* [Angular v13](https://angular.io/)
+* [Firebase v9](https://firebase.google.com) Cloud storage and authentication.
+* [Firebase Tools v10](https://www.npmjs.com/package/firebase-tools) CLI used to manage a Firebase project
+* [AngularFire v7](https://www.npmjs.com/package/@angular/fire) Angular library for Firebase
 * [Express v4](https://www.npmjs.com/package/express) Node.js framework
 
 ## :floppy_disk: Setup
 
 * Install dependencies using `npm i`
 * Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-* cd to `/functions` and run `npm run serve` to create build file and start up Functions emulator
+* In a 2nd terminal, cd to `/functions` and run `npm i` then `npm run serve` to install backend dependencies, create build file and start up Functions emulator
 * navigate to `localhost../api/databaseKey` the realtime database value will be displayed
 * Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 * Run `ng update` to update Angular
