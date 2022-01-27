@@ -4,11 +4,12 @@ import * as express from "express";
 import * as cors from "cors";
 
 // eslint-disable-next-line max-len
-const serviceAccount = require("/Users/gomez/Downloads/name-of-json-file-on-your-hard-drive");
+const serviceAccount = require("/Users/gomez/Downloads/acc-key.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://angular-blog-14cef.firebaseio.com"});
+  databaseURL: "https://angular-blog-14cef.firebaseio.com",
+});
 
 const app = express();
 app.use(cors());
@@ -17,10 +18,12 @@ app.use(cors());
 app.get("/database_ref", (request, response) => {
   const db = admin.database();
   const ref = db.ref("database_ref");
-  ref.once("value").then((value) => {
-    response.send(value);
-  })
-      .catch((err) => console.error(err));
+  ref
+    .once("value")
+    .then((value) => {
+      response.send(value);
+    })
+    .catch((err) => console.error(err));
 });
 
 export const api = functions.https.onRequest(app);
