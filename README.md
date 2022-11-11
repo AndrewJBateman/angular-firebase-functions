@@ -27,7 +27,7 @@
 ## :books: General info
 
 * Firebase project realtime database key-value pair created in Firebase Console
-* Project service account created via Firebase Project Settings and `Generate new private key` that adds a json file to the user's PC. The path to this access key file is referenced in the express server `index.ts` file
+* Project service account created via Firebase Project Settings then `Create Eervice Account`/Node.js (default option)then `Generate new private key` that adds a json file to the user's PC. The path to this access key file is referenced in the express server `index.ts` file
 * This is just a very simple example to demonstrate how a Firebase database function works
 
 ## :camera: Screenshots
@@ -36,9 +36,9 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v13](https://angular.io/)
+* [Angular v14](https://angular.io/)
 * [Firebase v9](https://firebase.google.com) Cloud storage and authentication.
-* [Firebase Tools v10](https://www.npmjs.com/package/firebase-tools) CLI used to manage a Firebase project
+* [Firebase Tools v11](https://www.npmjs.com/package/firebase-tools) CLI used to manage a Firebase project
 * [AngularFire v7](https://www.npmjs.com/package/@angular/fire) Angular library for Firebase
 * [Express v4](https://www.npmjs.com/package/express) Node.js framework
 
